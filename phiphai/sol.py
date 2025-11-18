@@ -11,7 +11,6 @@ while True:
     m = pow(c, d, n)
     flag = long_to_bytes(m)
     if b'W1{' in flag:
-        print(flag)
-        print(k)
+        print(flag.decode())
         break
     k += 1
