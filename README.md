@@ -1,4 +1,4 @@
-## CTF for Lab 2 (also WannaGame Freshman 2025)
+## WannaGame Freshman 2025 (also CTF for Lab 2)
 
 | Name                                                                  | Category    | Tags                                              |
 | :-----------------------------------------------------------------:   | :---------: | :-----------------------------------------------: |
