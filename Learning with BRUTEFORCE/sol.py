@@ -14,7 +14,7 @@ count = 0
 solutions = []
 for guess in product(e, repeat=len(b)):
     count += 1
-    if count % 1000:
+    if count % 1000 == 0:
         print(count)
 
     e = vector(F, guess)    
@@ -23,8 +23,6 @@ for guess in product(e, repeat=len(b)):
         solutions.append(s)
     except ZeroDivisionError:
         pass
-
-print("Tổng nghiệm tìm được:", len(solutions))
 
 # Giải mã tất cả nghiệm khả dĩ
 for s in solutions:
@@ -35,4 +33,4 @@ for s in solutions:
     try:
         print(long_to_bytes(num))
     except:
-        pass
+        pass 
