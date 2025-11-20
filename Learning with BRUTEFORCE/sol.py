@@ -21,8 +21,8 @@ def rev_rebase(s_digits):
         di = int(d)
         if not (0 <= di < p):
             return None
-    X += di * base
-    base *= p
+        X += di * base
+        base *= p
     return X
 
 limit = 1 << n
