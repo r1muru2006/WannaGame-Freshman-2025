@@ -22,6 +22,7 @@ Although I could not fully factorize $m_1$, `factordb` identified 6 distinct pri
 2.  Compute the partial plaintexts:
     $$k_i \equiv c^{d_i} \pmod{p_i}, \quad i \in [1,6]$$
 3.  Construct the system of equations:
+
     $$
     \begin{cases}
     m \equiv k_1 \pmod{p_1} \\
