@@ -37,7 +37,7 @@ for mask in range(limit):
         flag = long_to_bytes(X)
     except Exception:
         continue
-    if b'W1{' in flag:
+    if flag.startswith(b'W1{'):
         print("Flag:", flag)
         break
     if mask & 0x3FFFF == 0:  # every 262144 iterations
